@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Tanker';
+    src: url('../../fonts/Tanker-Regular.ttf');
+}
+
+* {
+    margin: 0;
+}
+
+.profil{
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 90vh;
+}
+
+.infos-reseau{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 90vh;
+    border-right: solid grey 0.1vw;
+}
+
+.infos{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 90vh;
+}
+
+.infos .infos-profil {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infos-reseau .infos-profil{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.3vw 1vw;
+    box-shadow: 0 0 0.4em grey;
+    background-color: white;
+    border-radius: 2vw;
+    margin-bottom: 1vw;
+    height: 30%;
+}
+
+.profil .infos-profil{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.3vw 1vw;
+    box-shadow: 0 0 0.4em grey;
+    background-color: white;
+    border-radius: 2vw;
+    margin-bottom: 1vw;
+}
+
+.profil .infos-profil button, .infos-reseau .infos-profil button {
+    width: 100%;
+}
+
+.infos .logo, .profil .logo, .infos-reseau .logo{
+    width: 50%;
+    margin-top: 1vw;
+}
+
+.infos .logo img, .infos-reseau .logo img, .profil .logo img, .infos-reseau .logo img{
+    cursor: pointer;
+    width: 8vw;
+}
+
+#profilpicture img{
+    width: 8vw;
+    margin-top: 0.5vw;
+}
+
+
+
+.profil #profilpicture img, .infos-reseau #profilpicture img{
+    width: 6vw;
+}
+
+.profil .infos-profil h2, .infos-reseau .infos-profil h2{
+    font-size: 1.2vw;
+}
+
+h2{
+    font-family: 'Tanker';
+    font-weight: 100;
+    font-size: 1.8vw;
+    margin-bottom: 1vw;
+}
+
+button{
+    margin-bottom: 1vw;
+    width: 80%;
+    height: 2vw;
+    background-color: #C92319;
+    border: none;
+    border-radius: 2vw;
+    font-size: 1.3vw;
+    font-family: 'Tanker';
+    color: white;
+    cursor: pointer;
+    font-weight: 100;
+    box-shadow: 0 0 0.2em grey;
+}
+
+.infos div:nth-child(5){
+    display: flex;
+    width: 81%;
+}
+
+.infos .profils, .profil .profils, .infos-reseau .profils{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    margin-top: 1vw;
+}
+
+.infos .profils div, .profil .profils div, .infos-reseau .profils div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infos .profils img, .profil .profils img, .infos-reseau .profils img{
+    width: 5vw;
+}
+
+.datainfos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.profil .datainfos h2{
+    text-align: center;
+}
+
+.profil .datainfos{
+    width: 100%;
+}

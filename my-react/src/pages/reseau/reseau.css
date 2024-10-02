@@ -1,0 +1,98 @@
+.reseau{
+    display: flex;
+    flex-direction: column;
+}
+
+.reseau .content{
+    display: flex;
+    flex-direction: row;
+}
+
+::-webkit-scrollbar-button{
+    display: none;
+}
+
+body{
+    overflow: hidden;
+}
+
+.content .main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content .main h1{
+    text-align: center;
+    color: #C92319;
+    text-decoration: underline;
+    margin-top: 1vw;
+    font-family: 'Tanker';
+    font-weight: 100;
+    font-size: 2.5vw;
+}
+
+.categories{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.ame-soeur, .histoire-courte, .fun, .voyage, .resto, .serieux, .amitie, .longue-distance{
+    width: 13vw;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 13.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.longue-distance{
+    background-image: url('../../images/rs/Rectangle\ 378.png');
+}
+
+.amitie{
+    background-image: url("../../images/rs/Rectangle\ 377.png");
+}
+
+.serieux{
+    background-image: url('../../images/rs/Rectangle\ 376.png');
+}
+
+.resto {
+    background-image: url('../../images/rs/Rectangle\ 375.png');
+}
+
+.voyage{
+    background-image: url('../../images/rs/Rectangle\ 374.png');
+}
+
+.fun{
+    background-image: url("../../images/rs/Rectangle\ 373.png");
+}
+
+.histoire-courte{
+    background-image: url("../../images/rs/Rectangle\ 372.png");
+}
+
+.ame-soeur{
+    background-image: url("../../images/rs/Rectangle\ 350.png");
+}
+
+.ame-soeur h2, .histoire-courte h2, .fun h2, .voyage h2, .resto h2, .serieux h2, .amitie h2, .longue-distance h2{
+    width: 80%;
+    text-align: center;
+    color: #C92319;
+    font-size: 2.5vw;
+    font-family: 'Tanker';
+    font-weight: 100;
+    margin: 0;
+    text-shadow: 
+        -0.1vw -0.1vw 0 #000,  
+        0.1vw -0.1vw 0 #000,
+        -0.1vw 0.1vw 0 #000,
+        0.1vw 0.1vw 0 #000;
+}

@@ -1,0 +1,36 @@
+.profil-main{
+    height: 100vh;
+}
+
+.content-profil{
+    display: flex;
+    flex-direction: row;
+    overflow-y: unset;
+}
+
+.content-profil .main-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-profil .main-content h1{
+    font-family: 'Tanker';
+    color: #C92319;
+    font-size: 3vw;
+    font-weight: 100;
+}
+
+.head-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content-profil .head{
+    width: 70vw;
+    height: 15vw;
+    background-image: url('../../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

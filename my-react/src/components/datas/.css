@@ -1,0 +1,96 @@
+@import 'simplebar-react/dist/simplebar.min.css';
+
+.data img{
+    width: 2vw;
+}
+
+.data .img{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.data .name{
+    width: 60%;
+}
+
+.data .number{
+    text-align: right;
+    width: 16%;
+}
+
+h3{
+    font-family: 'Tanker';
+    font-weight: 100;
+    font-size: 1.2vw;
+}
+
+.data{
+    height: 2.5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    border-radius: 2vw;
+    box-shadow: 0 0 0.5em grey;
+    margin-bottom: 0.2vw;
+}
+
+.profil .data{
+    width: 80%;
+}
+
+.usersvuerow{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    align-items: center;
+    background-color: white;
+    border-radius: 1.5vw;
+    width: 90%;
+    box-shadow: 0 0 0.2em grey;
+    padding: 0.5vw;
+    margin-bottom: 0.5vw;
+    height: 30%;
+}
+
+.usersvuerow img{
+    width: 4vw;
+}
+
+.usersvuerow h2{
+    font-size: 1.3vw;
+    margin: 0;
+}
+
+.usersvuerow h3{
+    margin: 0;
+    font-size: 1vw;
+}
+
+.users-vue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+}
+
+.users-vue.hidden {
+    display: none;
+}
+
+.users-vue.visible {
+    display: flex;
+}
+
+.simplebar-scrollbar::before {
+    opacity: 0 !important; /* Force l'opacité à 1 pour rendre la scrollbar visible */
+    transition: opacity 0s linear; /* Supprime l'animation de disparition */
+}
+
+.simplebar-scrollbar {
+    background-color: #C92319 !important; /* Couleur de la scrollbar */
+    border-radius: 10px;
+}

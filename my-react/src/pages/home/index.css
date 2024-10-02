@@ -1,0 +1,165 @@
+body {
+    background-color: #FFFCF4;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content #main{
+    width: 70vw ;
+    background: url('../../images/banner2.png');
+    border-radius: 1.5vw;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content #main .head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50%;
+}
+
+.main-content #main #first{
+    margin-left: 1vw;
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 0 0 0.5em white;
+    height: 2vw;
+    margin-top: 1vw;
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    border-radius: 2vw;
+}
+
+
+.main-content #main #sec{
+    margin-right: 1vw;
+    margin-top: 0.5vw;
+    height: 3vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3vw;
+    border-radius: 10vw;
+    box-shadow: 0 0 0.3em grey;
+}
+
+.main-content #main #sec img{
+    width: 1.5vw;
+}
+
+.main-content #main .head-nav{
+    display: flex;
+    align-items: flex-end;
+    height: 50%;
+    padding-left: 1vw;
+    padding-bottom: 1vw;
+    gap: 1vw;
+}
+
+.main-content #main .head-nav div{
+    background-color: rgba(255,255,255,0.9);
+    padding: 0.5vw;
+    box-shadow: 0 0 0.2em white;
+    border-radius: 1vw;
+}
+
+.main-content .rencontres{
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    gap: 5vw;
+}
+
+.main-content .rencontres .photo-profils{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.main-content .rencontres .photo-profils .personnes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 24vw;
+    flex: 0;
+}
+
+.main-content .rencontres .photo-profils .personnes img{
+    width: 10vw;
+    cursor: pointer;   
+}
+
+.main-content .rencontres .photo-profils .text{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-content .rencontres .photo-profils  h3{
+    width: 10vw;
+    text-align: center;
+}
+
+.main-content .quickvue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 25vw;
+    margin-top: 0.5vw;
+    height: 23vw;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    box-shadow: 0 0 0.2em grey;
+}
+
+.main-content .quickvue h2{
+    margin: 0;
+}
+
+.main-content .quickvue .img img{
+    width: 4vw;
+}
+
+.main-content .quickvue .img{
+    background-color: #FCF6E9;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.5vw 1vw;
+    border-radius: 2vw;
+}
+
+.main-content .quickvue .img h1{
+    font-family: 'Tanker';
+    font-weight: 100;
+    font-size: 1.2vw;
+    width: 100%;
+    text-align: center;
+}
+
+.main-content .quickvue .img h2{
+    font-family: 'Tanker';
+    font-weight: 100;
+    font-size: 0.8vw;
+    color: grey;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
